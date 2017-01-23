@@ -1,36 +1,29 @@
-# Content: Unsupervised Learning
-## Project: Creating Customer Segments
+### Project: Creating Customer Segments for Wholesale Distributor in Portugal
 
-### Install
+## Project Overview
+In this project, unsupervised learning techniques are applied on product spending data collected for customers of a wholesale distributor in Lisbon, Portugal to identify customer segments hidden in the data. You will first explore the data by selecting a small subset to sample and determine if any product. The techniques applied are preprocessing, scaling and PCA transformation.
 
-This project requires **Python 2.7** and the following Python libraries installed:
+## Description
+A wholesale distributor recently tested a change to their delivery method for some customers, by moving from a morning delivery service five days a week to a cheaper evening delivery service three days a week. Initial testing did not discover any significant unsatisfactory results, so they implemented the cheaper option for all customers. Almost immediately, the distributor began getting complaints about the delivery service change and customers were canceling deliveries, losing the distributor more money than what was being saved. 
 
+## Software and Libraries
+This project uses the following software and Python libraries:
+
+- [Python 2.7](https://www.python.org/download/releases/2.7/)
 - [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
-- [matplotlib](http://matplotlib.org/)
+- [pandas](http://pandas.pydata.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
+- [matplotlib](http://matplotlib.org/)
 
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
+You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html).
 
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer. 
+If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
 
-### Code
+This project contains three files:
 
-Template code is provided in the `customer_segments.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
-
-### Run
-
-In a terminal or command window, navigate to the top-level project directory `customer_segments/` (that contains this README) and run one of the following commands:
-
-```bash
-ipython notebook customer_segments.ipynb
-```  
-or
-```bash
-jupyter notebook customer_segments.ipynb
-```
-
-This will open the Jupyter Notebook software and project file in your browser.
+- `customer_segments.ipynb`: This is the main file where you will be performing your work on the project.
+- `customers.csv`: The project dataset. You?ll load this data in the notebook.
+- `visuals.py`: This Python script provides supplementary visualizations for the project. Do not modify.
 
 ## Data
 
